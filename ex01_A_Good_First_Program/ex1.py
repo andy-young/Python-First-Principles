@@ -9,4 +9,4 @@ print('This line has nested "double quotes".')
 print('Now toggle into your terminal and type: python3 ex1.py')
 print('This symbol --> # <-- is called an "octothorpe", a "mesh", "pound", or "hash".')
 # print("Remove the hash from the beginning of this line, so the python interpreter can print this text.")
-# <-- this hash tell python to comment.
+# <-- this hash tells python to comment.
