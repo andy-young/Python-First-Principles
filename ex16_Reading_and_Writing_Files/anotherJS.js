@@ -1,3 +1,3 @@
 console.log(Date.now);
-NaN === NaN
-2**4
+console.log(NaN === NaN);
+console.log(2 ** 4);
