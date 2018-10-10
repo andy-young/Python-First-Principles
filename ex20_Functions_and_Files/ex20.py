@@ -22,6 +22,7 @@ def print_a_line(line_count, f):
 
 # end functions ===============================================================
 
+
 # open file and assign
 current_file = open(input_file)
 
