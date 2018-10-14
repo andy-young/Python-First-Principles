@@ -50,5 +50,6 @@ I'm excited to have you here and I encourage you to peruse the table of contents
     * [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
 
 4. **Appendix**
+
     * [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/CodeOfConduct.md)
     * [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/SecureSetInfo.md)
