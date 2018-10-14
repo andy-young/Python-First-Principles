@@ -13,6 +13,9 @@ I'm excited to have you here and I encourage you to peruse the table of contents
         * [iTerm2](https://www.iterm2.com/) (for macOS) or [**Git** for Windows](https://gitforwindows.org/)
         * [Python 3.7.0](https://www.python.org/)
         * [Slack IRC](https://slack.com/downloads/osx) and get the [BCC Slack Pass](https://slackpass.io/bootcamperscollective)
+        * [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) (macOS)
+        * [Spectacle](https://www.spectacleapp.com/) (macOS)
+
     * Optional (Recommended) Application Extensions
         * Chrome Extensions:
           * [PySearch](https://chrome.google.com/webstore/detail/pysearch/mgafifalcjnaabbfdhindeageajlijjk)
