@@ -28,7 +28,6 @@ I'm excited to have you here and I encourage you to peruse the table of contents
           * **Path Intellisence** by _Christian Kohler_
           * **Output Colorizer** by _IBM_
           * **Code Runner** by _Jun Han_
-          * **Python Extension Pack** by _DonJayamanne_
 
 2. **Schedule**
 
