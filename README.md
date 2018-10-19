@@ -8,7 +8,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
 1. [Setting Up Your Environment :computer:](#setup)
 
-2. [Command Line Practice :neckbear:](#cli)
+2. [Command Line Practice :neckbeard:](#cli)
 
 3. [Version Control _**Git**_ &amp; _**GitHub**_ :octocat:](#git)
 
