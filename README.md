@@ -6,7 +6,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
 ## Table of Contents
 
-1. [Setting Up Your Environment :computer:](#setup)
+<!-- 1. [Setting Up Your Environment :computer:](#setup)
 
 2. [Command Line Practice :neckbeard:](#cli)
 
@@ -18,19 +18,17 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
 6. [Code of Conduct :checkered_flag:](#appendix)
 
----
+--- -->
 
-1. <a id="setup">**Setting Up Your Environment**</a>
+1.  <details><summary><a id="setup">Setting Up Your Environment</a></summary>
 
-   <details>
-   <summary>Download these tools if you don't already have them.</summary>
-    - [VSCode Editor](https://code.visualstudio.com/)
-    - [Google Chrome Browser](https://www.google.com/chrome/)
-    - [iTerm2](https://www.iterm2.com/) (for macOS) or [**Git** for Windows](https://gitforwindows.org/)
-    - [Python 3.7.0](https://www.python.org/)
-    - [Slack IRC](https://slack.com/downloads/osx) and get the [BCC Slack Pass](https://slackpass.io/bootcamperscollective)
-    - [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) (macOS)
-    - [Spectacle](https://www.spectacleapp.com/) (macOS)
+     - [VSCode Editor](https://code.visualstudio.com/)
+     - [Google Chrome Browser](https://www.google.com/chrome/)
+     - [iTerm2](https://www.iterm2.com/) (for macOS) or [**Git** for Windows](https://gitforwindows.org/)
+     - [Python 3.7.0](https://www.python.org/)
+     - [Slack IRC](https://slack.com/downloads/osx) and get the [BCC Slack Pass](https://slackpass.io/bootcamperscollective)
+     - [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) (macOS)
+     - [Spectacle](https://www.spectacleapp.com/) (macOS)
 
     - Optional (Recommended) Application Extensions
         - Chrome Extensions:
@@ -48,9 +46,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
    </details>
 
 
-2. <a id="cli">**Command Line Practice**</a>
-
-    <details><summary>Tools :hammer:</summary>
+2.  <details><summary><a id="cli">Command Line Practice</a></summary>
 
       - [CLI First Principles](https://andy-young.github.io/CLI-First-Principles/lessons/setup.html)
       - [Unix CLI Trainer](https://andy-young.github.io/CLI-First-Principles/commands.html)
@@ -58,13 +54,9 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
     </details>
 
-3. <a id="git">**Git &amp; GitHub Practice**</a>
+3. <a id="git">Git &amp; GitHub :octocat: Practice Coming soon..</a>
 
-   - Coming Soon...
-
-4. <a id="typing">**Touch Typing Resources**</a>
-
-    <details><summary>:warning: Awesome Tools! :warning:</summary>
+4. <details><summary><a id="typing">:warning: Awesome Typing Tools! :warning:</a></summary>
 
     These tools are challenging. You may get discouraged, but stick with it.<br/>Practice a little bit each day, and you'll see improvement.<br/>Gtypist is a CLI tool that may be difficult to install, I will help you with that.<br/>It's one of the best tools I've every used to improve
    touch typing :godmode:
@@ -74,7 +66,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
     - [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
    </details>
 
-5. <a id="schedule">**Schedule**</a>
+5. <a id="schedule">Schedule :calendar:</a>
 
    | Week     | Subject                                     |
    | -------- | ------------------------------------------- |
