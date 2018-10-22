@@ -1,3 +1,6 @@
+# What You Should See..
+
+```bash
 >>> import ex25
 >>> sentence = "All good things come to those who wait."
 >>> words = ex25.break_words(sentence)
@@ -27,3 +30,4 @@ wait.
 >>> ex25.print_first_and_last_sorted(sentence)
 All
 who
+```
