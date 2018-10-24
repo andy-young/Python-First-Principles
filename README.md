@@ -66,7 +66,20 @@ I'm excited to have you here and I encourage you to peruse the table of contents
     - [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
    </details>
 
-5. <a id="schedule">Schedule :calendar:</a>
+5. **Agenda: Oct 24th**
+
+   | Time  | Duration | Activity |
+   | ------|----------|----------|
+   | 18:00 | 5 min    | Settle in|
+   | 18:05 | 25 min   | Intro to Command Line Part 1 |
+   | 18:30 | 5 min    | BREAK |
+   | 18:35 | 25 min   | Intro to Command Line Part 2 |
+   | 18:50 | 10 min   | BREAK |
+   | 19:00 | 25 min   | Environment SetUp / Intro to Python :snake: |
+   | 19:25 | 20 min   | Cool Down |
+   | 19:45 | 5 ~ 10 min    | Closing Shop :closed_lock_with_key:|
+
+6. <a id="schedule">Schedule :calendar:</a>
 
    | Week     | Subject                                     |
    | -------- | ------------------------------------------- |
@@ -79,11 +92,9 @@ I'm excited to have you here and I encourage you to peruse the table of contents
    | Dec 5th  | Lessons 6 &amp; 7                           |
 
 
-
-    <details><summary>6. <a id="appendix">Code of Conduct</a></summary>
+<details><summary>7. <a id="appendix">Code of Conduct</a></summary>
 
       - [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/CodeOfConduct.md)
       - [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/SecureSetInfo.md)
       - [LICENSE](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/LICENSE)
-
-    </details>
+</details>
