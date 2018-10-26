@@ -66,25 +66,17 @@ I'm excited to have you here and I encourage you to peruse the table of contents
     - [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
    </details>
 
-5. **Agenda: Oct 24th**
+5. **Agenda: Nov 7th**
 
    | Time  | Duration | Activity |
    | ------|----------|----------|
-   | 18:00 | 5 min    | Settle in|
-   | 18:05 | 25 min   | Intro to Command Line Part 1 |
-   | 18:30 | 5 min    | BREAK |
-   | 18:35 | 25 min   | Intro to Command Line Part 2 |
-   | 18:50 | 10 min   | BREAK |
-   | 19:00 | 25 min   | Environment SetUp / Intro to Python :snake: |
-   | 19:25 | 20 min   | Cool Down |
-   | 19:45 | 5 ~ 10 min    | Closing Shop :closed_lock_with_key:|
+   | 18:00 | 30 min   | ex1.py   |
 
 6. <a id="schedule">Schedule :calendar:</a>
 
-   | Week     | Subject                                     |
-   | -------- | ------------------------------------------- |
-   | Oct 24th | Env. Set-Up :wrench:, Intro to Command Line |
-   | Oct 31st | Off for Halloween 🎃                        |
+   | Week     | Subject               |
+   | -------- | ----------------------|
+   | Oct 31st | Off for Halloween 🎃  |
    | Nov 7th  | Intro to Python `hello_world.py`:snake:     |
    | Nov 14th | Lessons 2 &amp; 3                           |
    | Nov 21st | Optional: Thanksgiving :turkey:             |
