@@ -12,3 +12,15 @@ if roomNode == "mirror":
     print("\t'Avoid' the mirror.")
 
     mirror_node = input("> ").lower()
+
+
+#  ===========================Start roomNode ==================================
+
+if roomNode == "desk":
+    print("You notice three draws, left, middle, and right side.")
+    print("Should you inspect the drawers? Yes or No?")
+
+    drawNode = input("> ").lower()
+
+    if drawNode == 'yes':
+        print("Which draw would you like to open?")
