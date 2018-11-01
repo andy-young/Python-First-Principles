@@ -70,23 +70,24 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
    | Time  | Duration | Activity |
    | ------|----------|----------|
-   | 18:00 | 30 min   | ex1.py   |
+   | 18:05 | 25 min   | [ex1.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex01_A_Good_First_Program/ex1.py)   |
+   | 18:35 | 25 min   | [ex2.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex02_Comments_and_Pound_Characters/ex2.py)   |
+   | 19:10 | 25 min   | [ex3.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex03_Numbers_and_Math/ex3.py)   |
+   | 19:35 | 15 min   | cool down|
 
 6. <a id="schedule">Schedule :calendar:</a>
 
    | Week     | Subject               |
    | -------- | ----------------------|
-   | Oct 31st | Off for Halloween 🎃  |
-   | Nov 7th  | Intro to Python `hello_world.py`:snake:     |
-   | Nov 14th | Lessons 2 &amp; 3                           |
-   | Nov 21st | Optional: Thanksgiving :turkey:             |
-   | Nov 28th | Lessons 4 &amp; 5                           |
-   | Dec 5th  | Lessons 6 &amp; 7                           |
+   | Nov 7th  | exercise 1, 2, 3     |
+   | Nov 14th | exercise 4 &amp; 5                  |
+   | Nov 21st | Optional: Thanksgiving :turkey:     |
+   | Nov 28th | exercise 6 &amp; 8                  |
 
 
-<details><summary>7. <a id="appendix">Code of Conduct</a></summary>
+7. <details><summary><a id="appendix">Code of Conduct</a></summary>
 
-      - [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/CodeOfConduct.md)
-      - [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/SecureSetInfo.md)
-      - [LICENSE](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/LICENSE)
+    - [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/CodeOfConduct.md)
+    - [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/SecureSetInfo.md)
+    - [LICENSE](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/LICENSE)
 </details>
