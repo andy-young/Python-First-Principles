@@ -1,4 +1,4 @@
 # Table of contents
 
-* [ex01: A Good First Program](README.md)
+* [ex01: A Good First Program](ex01_Instructions.md)
 
