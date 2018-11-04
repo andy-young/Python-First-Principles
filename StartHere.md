@@ -1,93 +1,132 @@
-# **Python First Principles**
+---
+description: Writing a Python script containing print statements.
+---
 
-My name is [Andy Young](http://www.atydev.com) and together we'll be working through [**Zed Shaw's**](https://zedshaw.com/) seminal series: [Learn Python the Hard Way](https://learnpythonthehardway.org/python3/). If you wish to purchase a copy, I recommend [Amazon](https://www.amazon.com/dp/0134692888/ref=cm_sw_r_tw_dp_U_x_zINWBbFZ3SCM1) because it's cheaper than bookstores.
+# ex01: A Good First Program
 
-I'm excited to have you here and I encourage you to peruse the table of contents and see :eyes: what lays ahead.
+## 1. Create project files & folders
 
-## Table of Contents
+From your terminal, make a project directory named `Python-First-Principles`, and create a `path` using the `-p` flag to nest another directory called `Python-Lessons` with a directory nesting in there called `ex01_A_Good_First_Program`.
 
-<!-- 1. [Setting Up Your Environment :computer:](#setup)
+```bash
+$ mkdir -p Python-First-Principles/Python-Lessons/ex01_A_Good_First_Program
+```
 
-2. [Command Line Practice :neckbeard:](#cli)
+Now `cd` down into `ex01_A_Good_First_Program` and create a file named `ex1.py` using the `touch` command and the `;` semi-colon _chain-command_ operator.
 
-3. [Version Control _**Git**_ &amp; _**GitHub**_ :octocat:](#git)
+```bash
+$ cd Python-First-Principles/Python-Lessons/ex01_A_Good_First_Program; touch ex1.py
+```
 
-4. [Touch Typing Resources :musical_keyboard:](#typing)
+What you just did is **changed directory** down into `ex01_A_Good_First_Program`, then **chained** the `touch ex1.py` command by using a `;` _chain-command_ operation.
 
-5. [Schedule :calendar:](#schedule)
+Once again the `touch` command creates files.
 
-6. [Code of Conduct :checkered_flag:](#appendix)
+Now if you're not sure what directory you're currently in, type `pwd`. This stands for **print working directory**. And if you do so, you should see :point\_down:
 
---- -->
+```bash
+$ pwd
+$ /Your/Path/Python-First-Principles/Python-Lessons/ex01_A_Good_First_Program
+$
+```
 
-1.  <details><summary><a id="setup">Setting Up Your Environment</a></summary>
+Now that you're in `ex01_A_Good_First_Program` you may confirm that `ex1.py` was created by typing the **list** command :point\_down:
 
-     - [VSCode Editor](https://code.visualstudio.com/)
-     - [Google Chrome Browser](https://www.google.com/chrome/)
-     - [iTerm2](https://www.iterm2.com/) (for macOS) or [**Git** for Windows](https://gitforwindows.org/)
-     - [Python 3.7.0](https://www.python.org/)
-     - [Slack IRC](https://slack.com/downloads/osx) and get the [BCC Slack Pass](https://slackpass.io/bootcamperscollective)
-     - [CheatSheet](https://mediaatelier.com/CheatSheet/?lang=en) (macOS)
-     - [Spectacle](https://www.spectacleapp.com/) (macOS)
+```bash
+$ ls
+$ ex1.py
+```
 
-    - Optional (Recommended) Application Extensions
-        - Chrome Extensions:
-            - [PySearch](https://chrome.google.com/webstore/detail/pysearch/mgafifalcjnaabbfdhindeageajlijjk)
-            - [py3redirect](https://chrome.google.com/webstore/detail/py3redirect/codfjigcljdnlklcaopdciclmmdandig)
-            - [MDN Search](https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc) (JavaScript Land :wink:)
-            - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US)
-            - [ZenHub](https://app.zenhub.com/login)
+### Let's Review
 
-        - VSCode Extensions (find these in VSCode Extension Market Place):
-            - **Python** by _Microsoft_
-            - **Path Intellisence** by _Christian Kohler_
-            - **Output Colorizer** by _IBM_
-            - **Code Runner** by _Jun Han_
-   </details>
+1. We enter the `terminal`.
+2. We create our project directories using `mkdir` with a `-p` flag for _folder-path_.
+3. We create or `touch` our python file \(`ex1.py`\).
+4. We confirm which directory we are in with `pwd`.
+5. We run **list** to confirm the creation of our python file.
+
+## 2. Writing our first P:snake:thon script
+
+From the terminal we are still in `ex01_A_Good_First_Program`.
+
+Let's change directory up two levels to `Python-First-Principles`.
+
+But first, let's `pwd` to confirm our location.
+
+```bash
+$ pwd
+$ /Python-First-Principles/Python-Lessons/ex01_A_Good_First_Program
+```
+
+Good! Now we can `cd` up two levels using the following:
+
+```bash
+$ cd ../../
+$
+```
+
+The `..` means to "_go up one directory_", and we separate the dots with a `/` to tell the terminal "_this is a directory_".
+
+And if we `pwd` we should be see this:
+
+```bash
+$ pwd
+$ /Python-First-Principles/Python-Lessons/ex01_A_Good_First_Program
+```
+
+### Open folder in editor
+
+There are many ways to open our project folder from the editor of our choosing. I'll open it in **VSCode**.
+
+```bash
+$ code .
+```
+
+From our current location this _should_ open up `Python-First-Principles` . If it doesn't work for you, don't worry. We can configure it later.
+
+### Start Scripting
+
+Let's make a couple print statements:
+
+{% code-tabs %}
+{% code-tabs-item title="ex1.py" %}
+```python
+print("Hello World!")
+print("Hello again!")
+print("Hello BootCamper's Collective!")
+print("My name is <your name>!")
+print("'print()' is a python method.")
+print("Python Docs are here --> https://docs.python.org/3/")
+print("This line has nested 'single' quotes.")
+print('This line has nested "double quotes".')
+print('Now toggle into your terminal and type: python3 ex1.py')
+print('This symbol --> # <-- is called an "octothorpe", a "mesh", "pound", or "hash".')
+# print("Remove the hash from the beginning of this line, so the python interpreter can print this text.")
+# <-- this hash tells python to comment.
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Notice line 9 tells us how to run the script from the terminal \(`$ python3 ex1.py`\). This is how we will be checking and running most of our programs. Let's give a try.
+
+#### What you should see:
+
+```text
+Hello World
+Hello Again
+Hello BootCamper's Collective!
+My name is <you name>!
+'print()' is a python method.
+Python Docs are here --> https://docs.python.org/3/
+This line has nested 'single' quotes.
+This line has nested "double quotes".
+Now toggle into your terminal and type: python3 ex1.py
+This symbol --> # <-- is called an "octothorpe", a "mesh", "pound", or "hash".
+```
+
+#### Next Steps:
+
+* Go over each line backwards from the bottom up, and speak out loud what each line is doing. It seems strange yet this practice will help you _intuit_ how the code is executing and help you detect bugs before they start.
 
 
-2.  <details><summary><a id="cli">Command Line Practice</a></summary>
 
-      - [CLI First Principles](https://andy-young.github.io/CLI-First-Principles/lessons/setup.html)
-      - [Unix CLI Trainer](https://andy-young.github.io/CLI-First-Principles/commands.html)
-      - [Windows CLI Trainer](https://andy-young.github.io/CLI-First-Principles/windowcmds.html)
-
-    </details>
-
-3. <a id="git">Git &amp; GitHub :octocat: Practice Coming soon..</a>
-
-4. <details><summary><a id="typing">:warning: Awesome Typing Tools! :warning:</a></summary>
-
-    These tools are challenging. You may get discouraged, but stick with it.<br/>Practice a little bit each day, and you'll see improvement.<br/>Gtypist is a CLI tool that may be difficult to install, I will help you with that.<br/>It's one of the best tools I've every used to improve
-   touch typing :godmode:
-
-    - [Python Typing Practice](https://typing.io/lesson/python/mercurial/merge.py/1) 35 wpm is a good goal.
-    - [Gtypist](https://www.gnu.org/software/gtypist/index.html#downloading)
-    - [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
-   </details>
-
-5. **Agenda: Nov 7th**
-
-   | Time  | Duration | Activity |
-   | ------|----------|----------|
-   | 18:05 | 25 min   | [ex1.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex01_A_Good_First_Program/ex1.py)   |
-   | 18:35 | 25 min   | [ex2.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex02_Comments_and_Pound_Characters/ex2.py)   |
-   | 19:10 | 25 min   | [ex3.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex03_Numbers_and_Math/ex3.py)   |
-   | 19:35 | 15 min   | cool down|
-
-6. <a id="schedule">Schedule :calendar:</a>
-
-   | Week     | Subject               |
-   | -------- | ----------------------|
-   | Nov 7th  | exercise 1, 2, 3     |
-   | Nov 14th | exercise 4 &amp; 5                  |
-   | Nov 21st | Optional: Thanksgiving :turkey:     |
-   | Nov 28th | exercise 6 &amp; 8                  |
-
-
-7. <details><summary><a id="appendix">Code of Conduct</a></summary>
-
-    - [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/CodeOfConduct.md)
-    - [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/SecureSetInfo.md)
-    - [LICENSE](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/LICENSE)
-</details>
