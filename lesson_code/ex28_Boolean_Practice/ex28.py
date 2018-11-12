@@ -1,7 +1,19 @@
 # Print out Boolean Operations for practice.
 # ==========================================
 
+Types of Boolean Operators
+
 print("1. True and True ⮑ ", True and True)  # ⮑ True
+
+print("T and T", True and True) # True
+
+print("F and T", False and True)  # False
+
+print("1 == 1 and 2 == 1", 1 == 1 and 2 == 1) # False
+
+print("1 > 2 or 4 != 4", 1 > 2 or 4 != 4) # False
+
+print("andy" and "Andy")
 
 print("2. False and True ⮑ ", False and True)  # ⮑ False
 
