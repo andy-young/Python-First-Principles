@@ -47,3 +47,5 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 1. [Numbers and Math](lessons/ex03.md)
 1. [Variables and Names](lessons/ex04.md)
 1. [More Variables and Printing](lessons/ex05.md)
+1. [Strings and Text](lessons/ex06.md)
+1. [More Printing](lessons/ex07.md)
