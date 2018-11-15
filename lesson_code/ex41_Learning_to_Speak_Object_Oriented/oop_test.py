@@ -2,7 +2,8 @@ import random
 from urllib.request import urlopen
 import sys
 
-WORD_URL - "http://learncodethehardway.org/words.txt"
+WORD_URL = "http://learncodethehardway.org/words.txt"
+
 WORDS = []
 
 PHRASES = {
@@ -32,4 +33,53 @@ for word in urlopen(WORD_URL).readlines():
 
 
 def convert(snippet, phrase):
-    class_names
+
+    class_names = [w.capitalize() for w in
+                   random.sample(WORDS, snippet.count("%%%"))]
+    other_names = random.sample(WORDS, snippet.count("***"))
+    results = []
+    param_names = []
+
+    for i in range(0, snippet.count("@@@")):
+        param_count = random.randint(1, 3)
+        param_names.append(', '.join(
+          random.sample(WORDS, param_count)))
+
+    for sentence in snippet, phrase:
+        result = sentence[:]
+
+        # fake class names
+        for word in class_names:
+            result = result.replace("%%%", word, 1)
+
+        # fake other names
+        for word in other_names:
+            result = result.replace("***", word, 1)
+
+        # fake param lists
+        for word in param_names:
+            result = result.replace("@@@", word, 1)
+
+        results.append(result)
+
+    return results
+
+
+# keep going until they hit CTRL-D
+try:
+    while True:
+      snippets = list(PHRASES.keys())
+      random.shuffle(snippets)
+
+      for snippet in snippets:
+          phrase = PHRASES[snippet]
+          question, answer = convert(snippet, phrase)
+          if PHRASE_FIRST:
+              question, answer = answer, question
+
+          print(question)
+
+          input("> ")
+          print(f"ANSWER: {answer}\n\n")
+except EOFError:
+  print("\nBye")
