@@ -46,4 +46,15 @@ class EscapePod(Scene):
 class Map(object):
 
     def __init__(self, start_scene):
-      pass
+        pass
+
+    def next_scene(self, scene_name):
+        pass
+
+    def opening_scene(self):
+        pass
+
+
+a_map = Map('central_corridor')
+a_game = Engine(a_map)
+a_game.play()
