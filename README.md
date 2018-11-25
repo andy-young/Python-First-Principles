@@ -45,7 +45,6 @@ I'm excited to have you here and I encourage you to peruse the table of contents
             - **Code Runner** by _Jun Han_
    </details>
 
-
 2.  <details><summary><a id="cli">Command Line Practice</a></summary>
 
       - [CLI First Principles](https://andy-young.github.io/CLI-First-Principles/lessons/setup.html)
@@ -54,9 +53,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 
     </details>
 
-3. <a id="git">Git &amp; GitHub :octocat: Practice Coming soon..</a>
-
-4. <details><summary><a id="typing">:warning: Awesome Typing Tools! :warning:</a></summary>
+3. <details><summary><a id="typing">Touch Typing Tools</a></summary>
 
     These tools are challenging. You may get discouraged, but stick with it.<br/>Practice a little bit each day, and you'll see improvement.<br/>Gtypist is a CLI tool that may be difficult to install, I will help you with that.<br/>It's one of the best tools I've every used to improve
    touch typing :godmode:
@@ -65,27 +62,25 @@ I'm excited to have you here and I encourage you to peruse the table of contents
     - [Gtypist](https://www.gnu.org/software/gtypist/index.html#downloading)
     - [TyprrBurn](https://www.gnu.org/software/gtypist/index.html#downloading)
    </details>
-
-5. **Agenda: Nov 7th**
+   
+<!-- 5. **Agenda: Nov 7th**
 
    | Time  | Duration | Activity |
    | ------|----------|----------|
    | 18:05 | 25 min   | [ex1.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex01_A_Good_First_Program/ex1.py)   |
    | 18:35 | 25 min   | [ex2.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex02_Comments_and_Pound_Characters/ex2.py)   |
    | 19:10 | 25 min   | [ex3.py](https://github.com/andy-young/Python-First-Principles/blob/master/Python-Lessons/ex03_Numbers_and_Math/ex3.py)   |
-   | 19:35 | 15 min   | cool down|
+   | 19:35 | 15 min   | cool down| -->
 
-6. <a id="schedule">Schedule :calendar:</a>
+<!-- 6. <a id="schedule">Schedule :calendar:</a>
 
    | Week     | Subject               |
    | -------- | ----------------------|
    | Nov 7th  | exercise 1, 2, 3     |
    | Nov 14th | exercise 4 &amp; 5                  |
    | Nov 21st | Optional: Thanksgiving :turkey:     |
-   | Nov 28th | exercise 6 &amp; 8                  |
-
-
-7. <details><summary><a id="appendix">Code of Conduct</a></summary>
+   | Nov 28th | exercise 6 &amp; 8                  | -->
+4. <details><summary><a id="appendix">Code of Conduct</a></summary>
 
     - [BCC Code of Conduct](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/CodeOfConduct.md)
     - [SecureSet Special Instructions](https://github.com/andy-young/Python-First-Principles/blob/master/Admin/SecureSetInfo.md)
