@@ -3,7 +3,7 @@ print("Mary had a little lamb.")
 # .format takes the arg 'snow' and concatenates in or places it in the curly braces
 print("Its fleece was white as {}. ".format('snow'))
 print("And everywhere that Mary went.")
-print("." * 10)  # what'd that do?
+print("." * 10)  # what did that do?
 
 end1 = "C"
 end2 = "h"
