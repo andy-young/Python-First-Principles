@@ -8,3 +8,4 @@
 * [5. More Variables and Printing](lessons/ex05.md)
 * [6. Strings and Text](lessons/ex06.md)
 * [7. More Printing](lessons/ex07.md)
+* [8. Printing, Printing](lessons/ex07.md)
