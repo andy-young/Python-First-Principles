@@ -50,3 +50,5 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 1. [Strings and Text](lessons/ex06.md)
 1. [More Printing](lessons/ex07.md)
 1. [Printing, Printing](lessons/ex08.md)
+1. [Printing, Printing, Printing](lessons/ex09.md)
+1. [What Was That?](lessons/ex10.md)
