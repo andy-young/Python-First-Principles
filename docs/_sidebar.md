@@ -10,4 +10,4 @@
 * [7. More Printing](lessons/ex07.md)
 * [8. Printing, Printing](lessons/ex08.md)
 * [9. Printing, Printing, Printing](lessons/ex09.md)
-* [9. What Was That?](lessons/ex10.md)
+* [10. What Was That?](lessons/ex10.md)
