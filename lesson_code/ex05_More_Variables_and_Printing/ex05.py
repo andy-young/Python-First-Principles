@@ -1,6 +1,7 @@
 # We will make strings with variables imbedded in them.
+# Supply your own data.. :-)
 
-my_name = "Andy Young"
+my_name = "first last" # for example: my_name = "Andy Young"
 my_age = 38
 my_height = 66  # inches
 my_weight = 160 # pounds

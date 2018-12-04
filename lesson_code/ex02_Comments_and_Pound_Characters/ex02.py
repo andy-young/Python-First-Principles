@@ -8,4 +8,4 @@ print("You can have code like this.") # and the comment after is ignored.
 
 print("This will run.")
 
-# Now run ex2.py...--> python3 ex2.py <-- just what's in the arrows :-)
+# Now run ex02.py...--> python3 ex02.py <-- just what's in the arrows :-)
