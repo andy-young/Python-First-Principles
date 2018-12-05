@@ -11,3 +11,4 @@
 * [8. Printing, Printing](lessons/ex08.md)
 * [9. Printing, Printing, Printing](lessons/ex09.md)
 * [10. What Was That?](lessons/ex10.md)
+* [11. Asking Questions](lessons/ex11.md)
