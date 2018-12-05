@@ -13,3 +13,6 @@
 * [10. What Was That?](lessons/ex10.md)
 * [11. Asking Questions](lessons/ex11.md)
 * [12. Prompting People](lessons/ex12.md)
+* [13. Parameters, Unpacking, Variables](lessons/ex13.md)
+* [14. Prompting and Passing](lessons/ex14.md)
+* [15. Reading Files](lessons/ex15.md)
