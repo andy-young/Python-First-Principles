@@ -1,6 +1,6 @@
 # Make a class named Animal that is-a(n) object
 class Animal(object):
-  pass
+    pass
 
 # Make a class named Dog that is-a(n) Animal
 class Dog(Animal):
@@ -29,11 +29,11 @@ class Person(object):
 # Make a class named Employee that is-a Person
 class Employee(Person):
 
-      def __init__(self, name, salary):
-          # Have Employee get attributes from Person Object
-          super(Employee, self).__init__(name)
+    def __init__(self, name, salary):
+        # Have Employee get attributes from Person Object
+        super(Employee, self).__init__(name)
           # from self, get the salary attribute and set it to salary
-          self.salary = salary
+        self.salary = salary
 
 # Make a class named Fish that is-an Object
 class Fish(object):

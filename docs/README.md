@@ -52,3 +52,7 @@ I'm excited to have you here and I encourage you to peruse the table of contents
 1. [Printing, Printing](lessons/ex08.md)
 1. [Printing, Printing, Printing](lessons/ex09.md)
 1. [What Was That?](lessons/ex10.md)
+1. [Asking Questions](lessons/ex11.md)
+1. [Prompting People](lessons/ex12.md)
+1. [Parameters and Unpacking Variables](lessons/ex14.md)
+1. [Reading Files](lessons/ex15.md)
